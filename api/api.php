@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
 // Koneksi ke database
-$conn = new mysqli("localhost", "username", "password", "dbcoffeedrinknote");
+$conn = new mysqli("localhost", "root", "", "dbcoffeedrinknote");
 
 // Cek koneksi
 if ($conn->connect_error) {
